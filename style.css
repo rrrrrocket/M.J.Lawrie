@@ -992,7 +992,7 @@ FAE PAGE
   position: relative;
   display: grid;
   box-sizing: border-box;
-  height: 100svh;
+  height: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 0.3fr 2fr .3fr 2fr 1fr 0.3fr 1fr;
   row-gap: 1.5rem;
@@ -1103,7 +1103,7 @@ FAE PAGE
     position: relative;
     display: grid;
     box-sizing: border-box;
-    height: 100svh;
+    height: 100%;
     grid-template-columns: 50px 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     row-gap: 1.5rem;
@@ -1158,7 +1158,7 @@ FAE PAGE
     position: relative;
     display: grid;
     box-sizing: border-box;
-    height: 100svh;
+    height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     row-gap: 1rem;
@@ -1285,7 +1285,7 @@ WITCH PAGE
   position: relative;
   display: grid;
   box-sizing: border-box;
-  height: 100svh;
+  height: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   row-gap: 1.5rem;
@@ -1382,7 +1382,7 @@ WITCH PAGE
     position: relative;
     display: grid;
     box-sizing: border-box;
-    height: 100svh;
+    height: 100%;
     grid-template-columns: 50px 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     row-gap: 1.5rem;
@@ -1408,7 +1408,7 @@ WITCH PAGE
     position: relative;
     display: grid;
     box-sizing: border-box;
-    height: 100svh;
+    height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     row-gap: 1rem;
@@ -1556,7 +1556,7 @@ VERITY PAGE
   position: relative;
   display: grid;
   box-sizing: border-box;
-  height: 100svh;
+  height: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 0.3fr 2fr .3fr 2fr 1fr 0.3fr 1fr;
   row-gap: 1.5rem;
@@ -1646,7 +1646,7 @@ VERITY PAGE
     position: relative;
     display: grid;
     box-sizing: border-box;
-    height: 100svh;
+    height: 100%;
     grid-template-columns: 50px 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     row-gap: 1.5rem;
@@ -1699,7 +1699,7 @@ VERITY PAGE
     position: relative;
     display: grid;
     box-sizing: border-box;
-    height: 100svh;
+    height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     row-gap: 1rem;
