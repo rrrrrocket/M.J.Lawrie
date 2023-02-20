@@ -289,7 +289,7 @@ a:hover, a:active { text-decoration: none; color:black } */
 #landing-page-img {
   top: 0;
   position: absolute;
-  background-image: url(images/landing-page-assets/Raven-bg.png);
+  background-image: url(/images/landing-page-assets/Raven-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -385,8 +385,7 @@ HOME PAGE
   box-sizing: border-box;
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.3fr 1.2fr .5fr .5fr;
-  /* grid-template-rows: 0.3fr 1.5fr 0.3fr 0.5fr; */
+  grid-template-rows: 0.3fr 1.1fr .3fr .5fr;
   row-gap: 1.4rem;
   -moz-column-gap: 1.5rem;
   column-gap: 1.5rem;
@@ -688,7 +687,7 @@ input[type=checkbox]{
   justify-content: center;
   align-items: center;
   grid-area: stolen-fae;
-  background-image: url(./images/fae-assets/sf-bg-img.png);
+  background-image: url(/images/fae-assets/sf-bg-img.png);
   background-size: cover;
   background-position: 45% 95%;
   background-repeat: no-repeat;
@@ -743,7 +742,7 @@ input[type=checkbox]{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/witch-assets/last-witch-embers.png);
+  background-image: url(/images/witch-assets/last-witch-embers.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -794,7 +793,7 @@ input[type=checkbox]{
   justify-content: center;
   align-items: center;
   grid-area: the-verity;
-  background-image: url(./images/verity-assets/scarlet-statue.png);
+  background-image: url(/images/verity-assets/scarlet-statue.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -827,7 +826,7 @@ input[type=checkbox]{
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  background-image: url(./images/pre-order-assets/pre-order-bg-img.png);
+  background-image: url(/images/pre-order-assets/pre-order-bg-img.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
