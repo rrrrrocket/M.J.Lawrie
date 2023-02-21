@@ -93,6 +93,7 @@ body {
 
 /* Set core body defaults */
 body {
+   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeSpeed;
   line-height: 2;
   font-family: var(--ff-body);
