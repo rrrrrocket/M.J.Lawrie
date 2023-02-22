@@ -290,7 +290,7 @@ a:hover, a:active { text-decoration: none; color:black } */
 #landing-page-img {
   top: 0;
   position: absolute;
-  background-image: url(images/landing-page-assets/Raven-bg.png);
+  background-image: url(images/landing-page-assets/Raven-bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -688,7 +688,7 @@ input[type=checkbox]{
   justify-content: center;
   align-items: center;
   grid-area: stolen-fae;
-  background-image: url(./images/fae-assets/sf-bg-img.png);
+  background-image: url(./images/fae-assets/sf-bg-img.webp);
   background-size: cover;
   background-position: 45% 95%;
   background-repeat: no-repeat;
@@ -743,7 +743,7 @@ input[type=checkbox]{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/witch-assets/last-witch-embers.png);
+  background-image: url(./images/witch-assets/last-witch-embers.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -794,7 +794,7 @@ input[type=checkbox]{
   justify-content: center;
   align-items: center;
   grid-area: the-verity;
-  background-image: url(./images/verity-assets/scarlet-statue.png);
+  background-image: url(./images/verity-assets/scarlet-statue.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -827,7 +827,7 @@ input[type=checkbox]{
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  background-image: url(./images/pre-order-assets/pre-order-bg-img.png);
+  background-image: url(./images/pre-order-assets/pre-order-bg-img.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1807,7 +1807,7 @@ VERITY PAGE
   justify-content: center;
   align-items: center;
   grid-area: v-bottom-nav-btn-left;
-  background-image: url(images/fae-assets/fae-bg-img.png);
+  background-image: url(images/fae-assets/fae-bg-img.webp);
   background-size: cover;
   background-position: center;
   max-height: 300px;
