@@ -160,6 +160,7 @@ svg {
 General Styling 
 :::::::::::::::::::::::::::::::::::::::::::::*/
 
+span,
 .hidden-text {
   clip-path: inset(100%);
    clip: rect(1px, 1px, 1px, 1px);
