@@ -160,12 +160,6 @@ svg {
 General Styling 
 :::::::::::::::::::::::::::::::::::::::::::::*/
 
-
-.hidden-text, p {
-   position: absolute;
-   display: none;
-}
-
 i, .fa-solid {
   font-size: var(--fs-500);
   color: var(--clr-secondary-white);
