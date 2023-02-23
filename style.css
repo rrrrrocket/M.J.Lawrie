@@ -161,7 +161,7 @@ General Styling
 :::::::::::::::::::::::::::::::::::::::::::::*/
 
 
-p, .hidden-text {
+.hidden-text p {
    position: absolute;
    display: none;
 }
