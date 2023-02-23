@@ -160,6 +160,16 @@ svg {
 General Styling 
 :::::::::::::::::::::::::::::::::::::::::::::*/
 
+span .hidden-text {
+  clip-path: inset(100%);
+   clip: rect(1px, 1px, 1px, 1px);
+   height: 1px;
+   overflow: hidden;
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+}
+
 i, .fa-solid {
   font-size: var(--fs-500);
   color: var(--clr-secondary-white);
