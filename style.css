@@ -386,7 +386,7 @@ HOME PAGE
   box-sizing: border-box;
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.3fr 750px .3fr .5fr;
+  grid-template-rows: 0.3fr 500px .3fr .5fr;
   row-gap: 1.4rem;
   -moz-column-gap: 1.5rem;
   column-gap: 1.5rem;
