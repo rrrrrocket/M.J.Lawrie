@@ -841,12 +841,6 @@ input[type=checkbox]{
   line-height: 1.2;
 }
 
-@media (max-width: 460px) {
-  #pre-order p {
-    font-size: var(--fs-300);
-  }
-}
-
 .crown {
   max-width: 60%;
   margin: 0 auto 1rem;
@@ -858,6 +852,10 @@ input[type=checkbox]{
     height: 120px;
     background-position: 100% 20%;
     padding: 1rem;
+  }
+
+  #pre-order p {
+    font-size: var(--fs-300);
   }
 
   .crown {
