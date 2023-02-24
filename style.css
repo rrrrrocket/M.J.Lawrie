@@ -839,6 +839,12 @@ input[type=checkbox]{
   text-align: center;
   padding: 1rem;
   line-height: 1.2;
+  font-size: var(--fs-700)
+}
+
+#pre-order p {
+  font-size: var(--fs-700);
+  margin-top: 1rem;
 }
 
 .crown {
@@ -856,6 +862,7 @@ input[type=checkbox]{
 
   #pre-order p {
     font-size: var(--fs-300);
+    margin: 0;
   }
 
   .crown {
