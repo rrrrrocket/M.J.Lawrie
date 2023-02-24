@@ -404,7 +404,7 @@ HOME PAGE
     box-sizing: border-box;
     height: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.3fr 1fr 0.3fr 0.5fr;
+    grid-template-rows: 0.3fr 500px 0.3fr 0.5fr;
     row-gap: 2rem;
     -moz-column-gap: 1.5rem;
     column-gap: 1.5rem;
