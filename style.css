@@ -847,6 +847,13 @@ input[type=checkbox]{
   margin-top: 1rem;
 }
 
+@media (max-width: 1400px) {
+
+  #pre-order p {
+    font-size: var(--fs-600);
+  }
+}
+
 .crown {
   max-width: 60%;
   margin: 0 auto 1rem;
