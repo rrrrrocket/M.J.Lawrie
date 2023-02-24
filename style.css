@@ -422,7 +422,7 @@ HOME PAGE
 @media (max-width: 920px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.3fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.3fr 300px 1fr 0.5fr;
     row-gap: 1.5rem;
     grid-template-areas: 
     "section-title section-title section-title section-title"
