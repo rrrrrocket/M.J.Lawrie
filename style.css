@@ -386,7 +386,7 @@ HOME PAGE
   box-sizing: border-box;
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.3fr 1.1fr .3fr .5fr;
+  grid-template-rows: 0.3fr 750px .3fr .5fr;
   row-gap: 1.4rem;
   -moz-column-gap: 1.5rem;
   column-gap: 1.5rem;
@@ -405,7 +405,7 @@ HOME PAGE
     height: 100%;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 0.3fr 1fr 0.3fr 0.5fr;
-    row-gap: .5rem;
+    row-gap: 2rem;
     -moz-column-gap: 1.5rem;
     column-gap: 1.5rem;
     width: 100%;
@@ -841,6 +841,10 @@ input[type=checkbox]{
   line-height: 1.2;
 }
 
+#pre-order p {
+  font-size: var(--fs-300);
+}
+
 .crown {
   max-width: 60%;
   margin: 0 auto 1rem;
@@ -848,12 +852,14 @@ input[type=checkbox]{
 
 @media (max-width: 460px) {
   #pre-order {
+    flex-direction: row;
     height: 120px;
     background-position: 100% 20%;
+    padding: 1rem;
   }
 
   .crown {
-    max-width: 28%;
+    max-width: 50%;
   }
 
 }
@@ -866,7 +872,48 @@ input[type=checkbox]{
 
 /* ------------- NEWSLETTER -------------*/
 
-#newsletter {
+#mc_embed_signup .button {
+  background-color: transparent !important;
+  border: 1px solid var(--clr-accent-red) !important;
+  border-radius: 25px !important;
+  padding: .5rem 2rem !important;
+  line-height: 1 !important;
+  color: var(--clr-accent-red) !important;
+  height: auto!important;
+}
+
+#mc_embed_signup{
+
+  grid-area: newsletter;
+  margin: 200px auto 0;
+}
+
+@media (max-width: 1400px) {
+  #mc_embed_signup{
+
+    grid-area: newsletter;
+    margin: 90px auto 0;
+  }
+}
+
+@media (max-width: 920px) {
+  #mc_embed_signup{
+
+    grid-area: newsletter;
+    margin: 300px auto 0;
+  }
+}
+
+@media (max-width: 460px) {
+  #mc_embed_signup{
+
+    grid-area: newsletter;
+    margin: 100px auto 0;
+    text-align: center;
+  }
+}
+
+/* #newsletter {
   display: flex;
   justify-content:center;
   align-items: center;
@@ -874,7 +921,7 @@ input[type=checkbox]{
   column-gap: 2rem;
   grid-area: newsletter;
   padding: 20px 0 20px 0;
-}
+} */
 
 /* ------------- FOOTER -------------*/
 
