@@ -386,7 +386,7 @@ HOME PAGE
   box-sizing: border-box;
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.3fr 500px .3fr .5fr;
+  grid-template-rows: 0.3fr 600px .3fr .5fr;
   row-gap: 1.4rem;
   -moz-column-gap: 1.5rem;
   column-gap: 1.5rem;
@@ -436,7 +436,7 @@ HOME PAGE
 @media (max-width: 460px) {
   .grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 0.3fr 100px 100px 100px 100px 1fr 1fr;
     gap: 1rem;
     grid-template-areas: 
     "section-title section-title"
@@ -723,7 +723,7 @@ input[type=checkbox]{
   #stolen-fae {
     background-position: 20% 30%;
     background-size: 140%;
-    height: 120px;
+    /* height: 120px; */
   }
 
   .sf-title-stack {
@@ -766,7 +766,7 @@ input[type=checkbox]{
 @media (max-width: 460px) {
   #last-witch {
     background-position: 50% 25%;
-    height: 120px;
+    /* height: 120px; */
     background-size: 120%;
     padding: 1rem;
   }
@@ -816,7 +816,7 @@ input[type=checkbox]{
   #the-verity {
     background-position: 60% 20%;
     background-size: 120%;
-    height: 120px;
+    /* height: 120px; */
   }
 }
 
@@ -862,7 +862,7 @@ input[type=checkbox]{
 @media (max-width: 460px) {
   #pre-order {
     flex-direction: row;
-    height: 120px;
+    /* height: 120px; */
     background-position: 100% 20%;
     padding: 1rem;
   }
@@ -899,7 +899,7 @@ input[type=checkbox]{
 #mc_embed_signup{
 
   grid-area: newsletter;
-  margin: 200px auto 0;
+  margin: 100px auto 0;
 }
 
 @media (max-width: 1400px) {
@@ -914,7 +914,7 @@ input[type=checkbox]{
   #mc_embed_signup{
 
     grid-area: newsletter;
-    margin: 300px auto 0;
+    margin: 100px auto 0;
   }
 }
 
@@ -922,7 +922,7 @@ input[type=checkbox]{
   #mc_embed_signup{
 
     grid-area: newsletter;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     text-align: center;
   }
 }
