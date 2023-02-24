@@ -436,7 +436,7 @@ HOME PAGE
 @media (max-width: 460px) {
   .grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 100px 100px 100px 100px 1fr 1fr;
+    grid-template-rows: 0.6fr 100px 100px 100px 100px 1fr 1fr;
     gap: 1rem;
     grid-template-areas: 
     "section-title section-title"
@@ -994,7 +994,7 @@ BIO PAGE
 :::::::::::::::::::::::::::::::::::::::::::::*/
 
 .bio-grid {
-  margin-top: 10rem;
+  margin-top: 9rem;
   position: relative;
   display: grid;
   box-sizing: border-box;
@@ -1219,7 +1219,7 @@ FAE PAGE
 
 @media (max-width: 460px){
   .fae-grid {
-    margin-top: 9rem;
+    margin-top: 40%;
     position: relative;
     display: grid;
     box-sizing: border-box;
@@ -1469,7 +1469,7 @@ WITCH PAGE
 
 @media (max-width: 460px) {
   .witch-grid {
-    margin-top: 8rem;
+    margin-top: 40%;
     position: relative;
     display: grid;
     box-sizing: border-box;
