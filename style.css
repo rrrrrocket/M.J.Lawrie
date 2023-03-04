@@ -280,11 +280,13 @@ a:hover, a:active { text-decoration: none; color:black } */
 .landing-grid {
   position: relative;
   display: flex;
+  grid-template-columns: 1fr;
+  grid-row: 1fr;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: auto;
-  height: 100vh;
+  height: 100svh;
 }
 
 #landing-page-img {
@@ -299,44 +301,30 @@ a:hover, a:active { text-decoration: none; color:black } */
 }
 
 #landing-page-logo {
-
+  margin-top: 5rem;
   max-width: 60%;
-
   z-index: 10;
-
-  margin-top: 255px;
-
-  font-size: var(--fs-primary-header);
-
 }
 
 
-#landing-page-text {
-  
-  font-size: var(--fs-primary-header);
-  
+#landing-page-text { 
+  font-size: var(--fs-primary-header);  
   z-index: 10;
 }
 
 #enter-site-btn {
-  
   z-index: 10;
-  
-  font-size: 50px;
-  
-  margin-top: 160px;
-  
-  color: var(--clr-accent-red);
-  
+  padding: .3rem 1.5rem;
+  min-width: 150px;
   transition: 0.3s ease;
-  
+  margin-top: 5rem;
 }
 
 #enter-site-btn:hover,
 #enter-site-btn:active, 
 #enter-site-btn:focus {
   
-  scale: 1.1;
+  scale: 1.05;
   
 }
 
@@ -365,12 +353,6 @@ a:hover, a:active { text-decoration: none; color:black } */
   font-size: var(--fs-secondary-header);
 
   }
-
-  #enter-site-btn {
-    
-    font-size: 30px;
-    
-  }
 }
 
 /* ::::::::::::::::::::::::::::::::::::::::::::
@@ -393,7 +375,7 @@ HOME PAGE
   width: 100%;
   grid-template-areas:
   "section-title section-title section-title section-title"
-  "stolen-fae last-witch the-verity pre-order"
+  "stolen-fae last-witch the-verity news"
   "newsletter newsletter newsletter newsletter"
   "footer footer footer footer";
 }
@@ -411,7 +393,7 @@ HOME PAGE
     width: 100%;
     grid-template-areas:
     "section-title section-title section-title section-title"
-    "stolen-fae last-witch the-verity pre-order"
+    "stolen-fae last-witch the-verity news"
     "newsletter newsletter newsletter newsletter"
     "footer footer footer footer";
   }
@@ -422,12 +404,12 @@ HOME PAGE
 @media (max-width: 920px) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.3fr 500px 500px 0.5fr;
+    grid-template-rows: 0.3fr 500px 500px 0.5fr 0.5fr;
     row-gap: 1.5rem;
     grid-template-areas: 
     "section-title section-title section-title section-title"
     "stolen-fae stolen-fae last-witch last-witch"
-    "the-verity the-verity pre-order pre-order"
+    "the-verity the-verity news news"
     "newsletter newsletter newsletter newsletter"
     "footer footer footer footer";
   }
@@ -436,14 +418,14 @@ HOME PAGE
 @media (max-width: 460px) {
   .grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.6fr 100px 100px 100px 100px 1fr 1fr;
+    grid-template-rows: 0.6fr 145px 145px 145px 80% 1fr 1fr;
     gap: 1rem;
     grid-template-areas: 
     "section-title section-title"
     "stolen-fae stolen-fae"
     "last-witch last-witch"
     "the-verity the-verity"
-    "pre-order pre-order"
+    "news news"
     "newsletter newsletter"
     "footer footer";
   }
@@ -820,8 +802,42 @@ input[type=checkbox]{
   }
 }
 
-/* ------------- PRE-ORDER SERIES -------------*/
+/* ------------- NEWS -------------*/
 
+#news {
+  text-align: left;
+  padding: 2rem;
+  background-color: var(--clr-secondary-black);
+  border-radius: 15px;
+  overflow: scroll;
+  grid-area: news;
+}
+#news h3 {
+  text-decoration: underline .5px;
+  text-underline-offset: 0.5rem;
+}
+
+@media (max-width: 460px) {
+  #news {
+    padding: 1rem;
+  }
+
+  #news h3 {
+    text-align: left;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+  }
+
+  #news p {
+    line-height: 1.5;
+  }
+}
+
+
+
+/* ------------- PRE-ORDER SERIES -------------*/
+/* 
 #pre-order {
   display: flex;
   flex-direction: column;
@@ -862,7 +878,7 @@ input[type=checkbox]{
 @media (max-width: 460px) {
   #pre-order {
     flex-direction: row;
-    /* height: 120px; */
+    height: 120px;
     background-position: 100% 20%;
     padding: 1rem;
   }
@@ -882,7 +898,7 @@ input[type=checkbox]{
 #pre-order:active,
 #pre-order:focus {
   scale: 1.01;
-}
+} */
 
 /* ------------- NEWSLETTER -------------*/
 
@@ -953,7 +969,7 @@ footer {
 
 .social-icons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   -moz-column-gap: 2rem;
   column-gap: 2rem;
@@ -964,6 +980,12 @@ footer {
 .facebook:hover,
 .facebook:active,
 .facebook:focus {
+  color: var(--clr-accent-red);
+}
+
+.instagram:hover,
+.instagram:active,
+.instagram:focus {
   color: var(--clr-accent-red);
 }
 
@@ -1059,8 +1081,8 @@ FAE PAGE
   box-sizing: border-box;
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 0.3fr 2fr .3fr 2fr 1fr 0.3fr 1fr;
-  row-gap: 1.5rem;
+  grid-template-rows: 1fr;
+  row-gap: 3rem;
   -moz-column-gap: 2.5rem;
   column-gap: 2.5rem;
   padding: 0 auto;
@@ -1069,6 +1091,8 @@ FAE PAGE
   "sf-book-one sf-book-one-synopsis sf-book-one-synopsis ."
   "sf-book-two-title sf-book-two-title . ."
   "sf-book-two sf-book-two-synopsis sf-book-two-synopsis ."
+  "sf-book-three-title sf-book-three-title . ."
+  "sf-book-three sf-book-three-synopsis sf-book-three-synopsis ."
   "footer footer footer footer";
 }
 
@@ -1180,8 +1204,8 @@ FAE PAGE
     "sf-book-one sf-book-one sf-book-one-synopsis sf-book-one-synopsis"
     "sf-book-two-title sf-book-two-title sf-book-two-title ."
     "sf-book-two sf-book-two sf-book-two-synopsis sf-book-two-synopsis"
-    ". sf-bottom-nav-title sf-bottom-nav-title ."
-    ". sf-bottom-nav-btn-left sf-bottom-nav-btn-right ."
+    "sf-book-three-title sf-book-three-title sf-book-three-title ."
+    "sf-book-three sf-book-three sf-book-three-synopsis sf-book-three-synopsis"
     "footer footer footer footer";
   }
 
@@ -1236,6 +1260,9 @@ FAE PAGE
     "sf-book-two-title"
     "sf-book-two"
     "sf-book-two-synopsis"
+    "sf-book-three-title"
+    "sf-book-three"
+    "sf-book-three-synopsis"
     "footer";
   }
 
@@ -1338,6 +1365,24 @@ FAE PAGE
 .sf-book-two-synopsis span{
   font-size: var(--fs-body-bold);
   font-weight: var(--fw-semibold);
+}
+
+.sf-book-three-title {
+  grid-area: sf-book-three-title;
+  text-align: left;
+  line-height: 1.5;
+  margin-top: 3rem;
+}
+
+.sf-book-three {
+  grid-area: sf-book-three;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.sf-book-three-synopsis {
+  grid-area: sf-book-three-synopsis;
 }
 
 
