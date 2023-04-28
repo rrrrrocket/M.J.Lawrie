@@ -812,6 +812,11 @@ input[type=checkbox]{
   overflow: scroll;
   grid-area: news;
 }
+
+#news .verity-audio-clip {
+  text-decoration: underline;
+}
+
 #news h3 {
   text-decoration: underline .5px;
   text-underline-offset: 0.5rem;
