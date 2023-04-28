@@ -1,4 +1,4 @@
-const playButton = document.getElementById('verity-audio-clip');
+const playButton = document.getElementById('verity-audio');
 const audio = document.getElementById('my-audio');
 
 let selectedTrack = audio;
